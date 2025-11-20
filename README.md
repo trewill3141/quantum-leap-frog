@@ -30,16 +30,13 @@ This repository contains detailed project documentation organized by technical d
 │   │   └── recommendations/      # Recommendation engines, keyword models, product models
 │   ├── monitoring/               # Monitoring and alerting projects
 │   │   └── alerting/             # Fraud detection, metric monitoring, alerting systems
-│   └── README.md                 # Detailed project documentation guide
-├── output/                       # Generated resume outputs (excluded from repo)
-└── input/                        # Source materials (excluded from repo)
+    └── README.md                 # Detailed project documentation guide
+
 ```
 
 For detailed project documentation, see [project/README.md](./project/README.md).
 
 > **💡 Quick Navigation**: Projects are organized by technical domain. Each project file follows the naming convention `{company_prefix}__{project_name}.md` (e.g., `bwds__` for BorrowWorks, `tt__` for Tandem Theory). See [project/README.md](./project/README.md) for the complete naming guide.
-
-> **📁 Repository Scope**: This repository tracks only the `project/` directory. Source materials (`input/`) and generated outputs (`output/`) are excluded from version control.
 
 ## Key Projects
 
@@ -63,8 +60,6 @@ For detailed project documentation, see [project/README.md](./project/README.md)
 **Cloud Platforms**: AWS (S3, SageMaker, Lambda), GCP (BigQuery, Cloud Functions)
 
 **Machine Learning**: XGBoost, Prophet, ARIMA, recommendation systems, time series forecasting
-
-> **🔍 Explore by Domain**: Browse projects by technical focus - [Analytics](./project/analytics/), [Infrastructure](./project/infrastructure/), [Machine Learning](./project/machine-learning/), [Integration](./project/integration/), or [Monitoring](./project/monitoring/). Each domain contains subdirectories for specific project types.
 
 ## Experience
 
