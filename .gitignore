@@ -1,0 +1,11 @@
+# Ignore all .DS_Store files
+**/.DS_Store
+.DS_Store
+
+# Ignore everything at root level except project/
+/*
+!/.gitignore
+!/project/
+# Ignore project/projects.md
+/project/projects.md
+
