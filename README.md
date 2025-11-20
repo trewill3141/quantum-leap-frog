@@ -14,29 +14,27 @@ This repository contains detailed project documentation organized by technical d
 ## Structure
 
 ```
-├── project/                      # Detailed project documentation organized by domain
-│   ├── analytics/                # Analytics and reporting projects
-│   │   ├── attribution/          # Attribution modeling projects
-│   │   ├── customer-analytics/   # Customer 360, funnel models, MRR models
-│   │   └── reporting/            # Reporting platforms, dashboards, BI environments
-│   ├── infrastructure/           # Data infrastructure and modeling projects
-│   │   ├── data-modeling/        # Data modeling, schemas, unified models
-│   │   └── warehouse-management/ # Warehouse scaling, optimization, disaster recovery
-│   ├── integration/              # Data integration and migration projects
-│   │   ├── api-integrations/     # API integrations, external data connections
-│   │   └── migrations/           # Platform migrations, system transitions
-│   ├── machine-learning/         # ML and predictive analytics projects
-│   │   ├── forecasting/          # Forecasting models, ad spend predictions
-│   │   └── recommendations/      # Recommendation engines, keyword models, product models
-│   ├── monitoring/               # Monitoring and alerting projects
-│   │   └── alerting/             # Fraud detection, metric monitoring, alerting systems
-    └── README.md                 # Detailed project documentation guide
-
+├── analytics/                    # Analytics and reporting projects
+│   ├── attribution/              # Attribution modeling projects
+│   ├── customer-analytics/       # Customer 360, funnel models, MRR models
+│   └── reporting/                # Reporting platforms, dashboards, BI environments
+├── infrastructure/               # Data infrastructure and modeling projects
+│   ├── data-modeling/            # Data modeling, schemas, unified models
+│   └── warehouse-management/     # Warehouse scaling, optimization, disaster recovery
+├── integration/                  # Data integration and migration projects
+│   ├── api-integrations/         # API integrations, external data connections
+│   └── migrations/               # Platform migrations, system transitions
+├── machine-learning/             # ML and predictive analytics projects
+│   ├── forecasting/              # Forecasting models, ad spend predictions
+│   └── recommendations/         # Recommendation engines, keyword models, product models
+├── monitoring/                   # Monitoring and alerting projects
+│   └── alerting/                 # Fraud detection, metric monitoring, alerting systems
+└── projects.md                   # Detailed project documentation guide
 ```
 
-For detailed project documentation, see [project/README.md](./project/README.md).
+For detailed project documentation, see [PROJECTS.md](./PROJECTS.md).
 
-> **💡 Quick Navigation**: Projects are organized by technical domain. Each project file follows the naming convention `{company_prefix}__{project_name}.md` (e.g., `bwds__` for BorrowWorks, `tt__` for Tandem Theory). See [project/README.md](./project/README.md) for the complete naming guide.
+> **💡 Quick Navigation**: Projects are organized by technical domain. Each project file follows the naming convention `{company_prefix}__{project_name}.md` (e.g., `bwds__` for BorrowWorks, `tt__` for Tandem Theory). See [PROJECTS.md](./PROJECTS.md) for the complete naming guide.
 
 ## Key Projects
 

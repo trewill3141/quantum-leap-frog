@@ -2,10 +2,14 @@
 **/.DS_Store
 .DS_Store
 
-# Ignore everything at root level except project/
+# Ignore everything at root level except project directories
 /*
 !/.gitignore
-!/project/
-# Ignore project/projects.md
-/project/projects.md
+!/analytics/
+!/infrastructure/
+!/integration/
+!/machine-learning/
+!/monitoring/
+!/PROJECTS.md
+!/README.md
 

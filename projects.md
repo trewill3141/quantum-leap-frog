@@ -1,11 +1,10 @@
 # Project Documentation
 
-This directory contains detailed project documentation organized by technical domain and function.
+This repository contains detailed project documentation organized by technical domain and function.
 
 ## Directory Structure
 
 ```
-project/
 ├── analytics/                    # Analytics and reporting projects
 │   ├── customer-analytics/       # Customer 360, funnel models, MRR models
 │   ├── attribution/              # Attribution modeling projects
@@ -70,5 +69,5 @@ Each project file contains:
 
 ## Overview
 
-For a high-level overview of all projects, see [projects.md](./projects.md).
+Projects are organized at the repository root by technical domain. Each domain directory contains subdirectories for specific project types.
 
